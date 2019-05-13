@@ -8,8 +8,13 @@ namespace DesignPattern.hero
     {
         public string Name { get; set; }
         public int Attact { get; set; }
+        public int interval { get; set; }
         public abstract void Introduce();
         public abstract void AttractType();
         public IUserSkill UserSkill { get; set; }
+        public void DoUserSkill()
+        {
+            UserSkill.UserSKill();
+        }
     }
 }

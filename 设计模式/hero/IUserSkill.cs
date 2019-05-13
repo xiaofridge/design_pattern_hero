@@ -6,6 +6,6 @@ namespace DesignPattern.hero
 {
     interface IUserSkill
     {
-        void returnSKillName();
+        void UserSKill();
     }
 }

@@ -9,6 +9,7 @@ namespace DesignPattern.hero
         public HouYi() {
             Name = "houyi";
             Attact = 50;
+            interval = 500;
         }
         public override void  AttractType()
         {
@@ -17,7 +18,7 @@ namespace DesignPattern.hero
 
         public override void Introduce()
         {
-            Console.WriteLine("my name is houyi");
+            Console.WriteLine("我是无敌射手");
         }
     }
 }

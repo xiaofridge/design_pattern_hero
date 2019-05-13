@@ -4,11 +4,11 @@ using System.Text;
 
 namespace DesignPattern.hero
 {
-    class KuangBao : IUserSkill
+    class JiPao : IUserSkill
     {
         public void UserSKill()
         {
-            Console.WriteLine("kuangbao!!!!,speed++++");
+            Console.WriteLine("使用疾跑，加速中");
         }
     }
 }
