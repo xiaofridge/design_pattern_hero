@@ -52,14 +52,18 @@ namespace DesignPattern
                         Console.Write($"基地之前有{newJiDI.Health}点血，");
                         newJiDI.Health = newJiDI.Health - hero.Attact;
                         Console.WriteLine($"{hero.Name}对基地造成{hero.Attact}点伤害，基地剩余血量{newJiDI.Health}");
-                        Thread.Sleep(hero.interval);
+                        if (newJiDI.Health <= 0) {
+                            Console.WriteLine("基地爆炸");
+                        }
                     }
                     else {
                         break;
                     }
                 }
+                Thread.Sleep(hero.interval);
+
             }
-            Console.WriteLine("基地爆炸");
+
         }
     }
 }
