@@ -8,7 +8,7 @@ namespace DesignPattern.hero
     {
         public void returnSKillName()
         {
-            Console.WriteLine("user skill is kuangbao");
+            Console.WriteLine("user skill is kuangbao123");
         }
     }
 }
