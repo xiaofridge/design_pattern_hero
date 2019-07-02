@@ -7,19 +7,19 @@ namespace DesignPattern.hero
     class LuBanQiHao:HeroBase
     {
         public LuBanQiHao() {
-            Name = "LuBanQ33333iHao";
+            Name = "LuBanQ4444iHao";
             Attact = 30;
             interval = 300;
         }
 
         public override void AttractType()
         {
-            Console.WriteLine("dad33333adadadada");
+            Console.WriteLine("dad4444adadadada");
         }
 
         public override void Introduce()
         {
-            Console.WriteLine("hi,我是鲁3333班七号");
+            Console.WriteLine("hi,我是鲁4444班七号");
         }
     }
 }
