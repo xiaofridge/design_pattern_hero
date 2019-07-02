@@ -8,7 +8,7 @@ namespace DesignPattern.hero
     {
         public void UserSKill()
         {
-            Console.WriteLine("使用疾跑，加速中");
+            Console.WriteLine("2323232，加速中");
         }
     }
 }

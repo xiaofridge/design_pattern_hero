@@ -13,7 +13,7 @@ namespace DesignPattern.hero
         }
         public override void  AttractType()
         {
-            Console.WriteLine("xiuxiuxiu");
+            Console.WriteLine("xiuxiux232323iu");
         }
 
         public override void Introduce()
